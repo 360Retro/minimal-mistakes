@@ -1,0 +1,49 @@
+
+/****************************************
+  ==== RESETS
+****************************************/
+
+html,body,div,canvas { margin: 0; padding: 0; }
+::-moz-selection { color: #333; text-shadow: none; }
+::selection {  color: #333; text-shadow: none; }
+.clear:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clear { display: inline-table; clear: both; }
+/* Hides from IE-mac \*/ * html .clear { height: 1%; } .clear { display: block; } /* End hide from IE-mac */
+
+/****************************************
+  ==== LAYOUT
+****************************************/
+
+body 
+{ 
+  font-family: Helvetica, Verdana, Arial, sans-serif; 
+  background-color: #000000;
+}
+
+#splashWrapper
+{
+  height: 768px;
+  width: 1024px;
+  background-color: #000000;
+  position: absolute;
+  top: 0px;
+  /*z-index: -100;*/
+}
+
+#barMask 
+{
+  position: absolute;
+  left: 380px;
+  top: 400px;
+  width: 256px;
+  height: 64px;
+}
+
+#bar
+{
+  position: absolute;
+  left: 380px;
+  top: 400px;
+  width: 256px;
+  height: 64px;
+}
